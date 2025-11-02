@@ -1,0 +1,43 @@
+
+/*  udated styling */
+body{ 
+font-family: sans-serif;
+color: #333;
+padding: 20px;
+}
+
+/* updated shadow for header styles */
+h1, h2{
+	text-shadow:1px 1px 3px rgba(0,0,0,0.2);
+}
+/* nav bar update*/
+.nav-link:hover {
+	text-decoration: underline;
+}
+/* styling for card*/
+.card {
+	border-radius: 12px;
+}
+
+/* buttons styling*/
+.btn {
+	border-radius: 16px;
+	padding: 6px 12px;
+	font-size: 14px;
+}
+
+/* media adjusting to different screens*/
+@media (max-width: 768px) {
+	body {
+		background-color: #eef3f8;
+	}
+	
+	h1 {
+		font-size: 28px;
+	}
+}
+
+ul.custom-bullet {
+	list-style-type: square;
+	padding-left: 20px;
+}
